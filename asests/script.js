@@ -7,5 +7,8 @@ function generatePassword() {
     alert("Invalid input. Please enter a number between 8 and 24.");
     return;
   }
+  let includeLower = confirm("Include lowercase characters?");
+  let includeUpper = confirm("Include uppercase characters?");
+  let includeNumeric = confirm("Include numeric characters?");
+  let includeSpecial = confirm("Include special characters?");
 }
-// Let next?
