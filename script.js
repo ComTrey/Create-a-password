@@ -43,7 +43,7 @@ function generatePassword() {
 
   return password;
 }
-
+// https://www.youtube.com/watch?v=G5Or47gPH-4&ab_channel=TheNetNinja Had issues and needed youtube help here.
 document.addEventListener("DOMContentLoaded", function () {
 
   var generateBtn = document.querySelector("#generate");
